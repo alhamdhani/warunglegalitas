@@ -1,0 +1,645 @@
+/* Add smooth scrolling behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background: linear-gradient(to bottom, #485563, #29323c);
+}
+
+/* Navbar */
+ .navbar-nav .nav-link {
+  color: #333;
+}
+
+#title-wl{
+  color: #ffc107;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff;
+}
+
+.navbar-brand img {
+  max-width: 60px;
+  height: auto;
+}
+
+/* Hero */
+.hero {
+  color: #ffffffc5;
+  text-align: center;
+  padding: 100px 0;
+  padding-top: 11rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.hero span {
+  color:#ffc107;
+}
+
+.custom-btn-hero {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ffc107;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.custom-btn-hero:hover {
+  background-color: #04e429;
+}
+
+.hero .btn {
+  font-size: 1.2rem;
+  padding: 10px 25px;
+}
+
+.hero .btn:hover {
+  background-color:#04e429;
+  }
+
+/* About */
+.about {
+  background-color: #dbdbdb;
+  padding: 5rem 8rem;
+  text-align: center;
+  padding-top: 8rem;
+}
+
+.about-content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: justify;
+  height: 500px; 
+}
+
+.more-text {
+  display: none;
+  text-align: justify;
+  max-width: 900px;
+  margin: 10px auto;
+}
+
+#span-more-text{
+  font-weight: bold;
+  color: black;
+}
+
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.about span {
+color:#ffc107;
+}
+
+.about p {
+font-size: 1.2rem;
+}
+
+#read-more-btn {
+  display: block;
+  margin: 15px auto 5px;
+  cursor: pointer;
+  background-color:#ffc107;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+  #read-more-btn:hover {
+  background-color: #04e429;
+  }
+
+/* Layanan */
+
+.projects {
+  padding: 80px 0;
+  text-align: center;
+  background-color: linear-gradient(to bottom, #485563, #29323c);
+  padding-top: 8rem;
+}
+
+.projects h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.projects span {
+  color:#ffc107;
+  }
+
+/* Card styles */
+.card {
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  background-color: transparent;
+}
+
+.card-img-top {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card-body {
+  padding: 20px;
+  
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color:#ffc107;
+}
+
+.card-text {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  color:white;
+}
+
+.custom-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ffc107;
+  color: #000000;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.custom-btn:hover {
+  background-color: #0adb26;
+}
+
+/* Contact section styles */
+/* Add your contact section styles here */
+
+/* Media queries */
+@media (max-width: 991px) {
+  .card {
+      margin: 20px 0;
+  }
+}
+
+  /* Kontak */
+  .contact {
+    background-color: #dbdbdb;
+    padding: 8rem 0;
+    text-align: center;
+  }
+  
+  .contact h2{
+    font-size:2rem;
+  }
+  
+  .contact span{
+    color:#ffc107;
+  }
+  
+  .contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .map {
+    flex: 1;
+    padding-top: 5rem;
+    max-width: 400px; /* Set a max width for the map */
+  }
+  
+  .contact-info {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .contact h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 2px solid #000000;
+    border-radius: 4px;
+  }
+  
+  .submit-button {
+      display: block;
+      /* margin: 0 auto; */
+      padding: 10px 25px;
+      background-color: #333;
+      color: white;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color:#11db54;
+  }
+  
+
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.follow-us {
+  font-size: 15px;
+  margin-bottom: 0.5rem;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+  margin-bottom: 0.1rem;
+}
+
+.social-icon img {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.3s ease;
+}
+
+.social-icon img:hover {
+  transform: scale(1.2);
+}
+
+.footer-links {
+  margin-top: 5px; 
+}
+
+.footer-links a {
+  color: white;
+  margin: 0 20px; 
+  text-decoration: none;
+  transition: color 0.3s; 
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+  color:#eeba1d;
+}
+
+.address p {
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.copy p {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.social-icon a {
+  text-decoration: none;
+}
+
+/* Style the floating WhatsApp button */
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 70px;
+  right: 20px;
+  background-color: #25d366;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.whatsapp-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+}
+
+.whatsapp-text {
+  font-size: 14px;
+  display: flex; 
+  align-items: center; 
+  font-style: bold;
+  color: rgb(255, 254, 254);
+  text-decoration: none;
+
+}
+
+.whatsapp-float:hover  {
+  transform: scale(1.1); /* Memperbesar gambar saat hover */
+  opacity: 0.8; /* Mengurangi kecerahan gambar saat hover */
+}
+
+.whatsapp-float:hover .whatsapp-text {
+  color: #000000; /* Warna teks saat hover */
+}
+
+/* Page Menu Tabel */
+/* Tabel */
+.container {
+  text-align: center;
+}
+
+.container h2
+{
+  color:rgb(237, 226, 226);
+  padding-top: 8rem;
+  padding-bottom: 1rem;
+}
+
+.container span
+{
+  color:#ffc107;
+}
+
+.table-responsive {
+  overflow-x: auto;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  color: white; 
+  text-align: center;
+  height: 500px;
+}
+
+th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+
+#jasa,#price{
+  text-align: center;
+}
+
+th {
+  background-color: #333;
+  color: white; /* Ubah warna teks header kolom menjadi putih */
+}
+
+.back-more-btn {
+  display: inline-block;
+  margin: 20px auto 40px;
+  padding: 8px 16px;
+  background-color: #e3c73d;
+  color:#000000;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-top: 2rem;
+  font-style: bold;
+}
+
+.back-more-btn:hover {
+  background-color:#3de35c;
+}
+
+
+/* Media Screen */
+      /* Gaya khusus untuk layar kecil */
+      @media (max-width: 767px) {
+        
+      /* Navbar */
+      .navbar-toggler {
+          margin-right: 0.5rem;
+      }
+
+      .navbar-brand img {
+        max-width: 60px;
+        height: auto;
+      }
+      
+      .navbar-collapse {
+          flex-basis: 100%;
+      }
+      
+      .navbar-nav {
+          flex-direction: column;
+      }
+
+      /* Hero */
+      .hero {
+        padding: 60px 0;
+        padding-top: 9rem;
+      }
+
+      .hero h1 {
+        font-size: 2rem;
+      }
+
+      .hero p {
+        font-size: 0.9rem;
+      }
+
+      .hero .btn {
+        font-size: 1rem;
+        padding: 5px 15px;
+      }
+
+      /* About */
+      .about {
+      padding: 60px 0;
+      font-size: 10px;
+      }
+
+      .about h2,
+      .projects h2,
+      .contact h2 {
+      font-size: 1.2rem;
+      }
+
+      .about-content {
+      margin: 0 auto;
+      padding: 20px;
+      text-align: justify;
+      height: 400px;
+      overflow: hidden;
+      }
+
+      .about p {
+      font-size: 11px;
+      }
+
+      #read-more-btn {
+      margin: 5px auto 5px;
+      padding: 5px 8px;
+      border-radius: 4px;
+      font-size: 9px;
+      }
+
+     /* Layanan */
+
+      .projects {
+      padding: 60px 0;
+  }
+
+  .card {
+      margin: 20px 0;
+  }
+
+  .card-title {
+      font-size: 1.2rem;
+  }
+
+  .card-text {
+      font-size: 0.9rem;
+  }
+
+  .custom-btn {
+      font-size: 0.9rem;
+      padding: 8px 16px;
+  }
+
+      /* Kontak */
+      .contact{
+      padding-top: 2.4rem;
+      }
+
+      .map {
+      padding-top: 0.5rem;
+      }
+
+      .contact-content {
+      flex-direction: column;
+      max-width: 350px;
+      font-size:11px;
+      }
+
+      .form-group label {
+      font-size: 12px;
+      }
+
+      .form-group input,
+      .form-group textarea {
+      font-size: 12px;
+      border: 1.8px solid #000000;
+      border-radius: 6px;
+      align-items: center;
+      }
+
+      .submit-button {
+      padding: 8px 16px;
+      }
+
+      /* Footer */
+      .follow-us {
+      font-size: 12px;
+      margin-bottom: 0.5rem;
+      }
+
+      .social-icon img {
+      width: 16px;
+      height: 16px;
+      transition: transform 0.3s ease;
+      }
+
+      .footer-links {
+      margin-top: 1px; 
+      }
+
+      .footer-links a {
+      margin: 5px 10px; 
+      font-size: 10px;
+      }
+      .address p {
+      font-size: 11px;
+      margin: 5px 10px;
+      }
+      
+      .copy p {
+      font-size: 10px;
+      }
+  
+      /* Tabel */
+      .table-responsive {
+      max-width: 100%;
+      }
+
+      th, td {
+        width: auto;
+        font-size: 6px;
+      }
+
+      .container h2{
+      font-size: 14px;
+      padding-top: 7rem;
+      padding-bottom: 1rem;
+      }
+
+      .back-more-btn {
+        
+        margin: 20px auto 40px;
+        padding: 8px 16px;
+        margin-top: 2rem;
+        font-style: bold;
+        font-size: 9px;
+      }
+      /* WhatsApp Float */
+      .whatsapp-float {
+        bottom: 150px; /* Sesuaikan posisi bottom pada layar seluler */
+        right: 15px; /* Sesuaikan posisi right pada layar seluler */
+        padding: 4px;
+      }
+
+      .whatsapp-text {
+        font-size: 8px; /* Sesuaikan ukuran teks pada layar seluler */
+    }
+}

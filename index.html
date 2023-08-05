@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Warung Legalitas</title>
+    <!-- Logo Title -->
+    <link rel="icon" href="img/logo.png" />
+
+    <!-- Panggil Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- My Styles -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">
+          <img src="img/logo.png" alt="Logo Situs" />Warung
+          <span id="title-wl"> Legalitas</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#about">Tentang</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#services">Layanan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#contact">Kontak</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="container">
+        <h1 class="fw-bold">Jasa Kenotarisan dan <span>Legalitas</span></h1>
+        <p>
+          Memberikan layanan jasa pendirian PT, CV, Virtual Office dan Perizinan
+        </p>
+        <a href="#services" class="custom-btn-hero fw-bold text-dark"
+          >Get Started</a
+        >
+      </div>
+    </section>
+
+    <!-- Tentang -->
+    <section class="about" id="about">
+      <div class="about-content">
+        <h2 class="fw-bold">Tentang <span>Kami</span></h2>
+        <p>
+          Warung Legalitas menyediakan jasa untuk pendirian badan usaha anda
+          seperti PT atau CV dan pengurusan izin usaha sesuai dengan bidang
+          usaha anda. Kami memberikan jaminan jasa kami untuk anda...
+        </p>
+        <div class="more-text">
+          <p>
+            <span id="span-more-text">Terpercaya, </span>Warung Legalitas
+            terdiri dari tim yang berpengalaman dalam bidang Hukum Perusahaan
+            dan Hukum Bisnis.
+          </p>
+          <p>
+            <span id="span-more-text">Tercepat, </span>Warung Legalitas
+            berkomitmen untuk memberikan pelayanan terbaik bagi anda dengan
+            memastikan semua layanan secara cepat. Pendirian Badan Usaha anda
+            akan selesai dengan jangka waktu 5 hari kerja.
+          </p>
+          <p>
+            <span id="span-more-text">Termudah, </span>Warung Legalitas menjamin
+            kemudahan anda dalam pendirian badan usaha dan pengurusan izin usaha
+            Anda.
+          </p>
+          <p>
+            <span id="span-more-text">Termurah, </span>Warung Legalitas akan
+            menawarkan harga yang sangat dapat bersaing dengan penyedia jasa
+            yang lain.
+          </p>
+        </div>
+
+        <button id="read-more-btn" onclick="toggleMoreText()">
+          Baca Selengkapnya
+        </button>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="services">
+      <h2 class="fw-bold text-white">Layanan <span>Kami</span></h2>
+      <div class="container text-center">
+        <div class="row justify-content-center">
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="img/1.jpg" class="card-img-top" alt="Project 1" />
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Jasa Kenotarisan</h5>
+                <p class="card-text">
+                  Layanan hukum untuk pembuatan, legalisasi dan verifikasi akta
+                  notaris secara profesional.
+                </p>
+                <a href="menu.html" class="btn custom-btn">Daftar Harga</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="img/2.jpg" class="card-img-top" alt="Project 1" />
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Jasa PPAT</h5>
+                <p class="card-text">
+                  Layanan legal untuk transaksi dan akta tanah, menjamin
+                  keabsahan hukum properti Anda.
+                </p>
+                <a href="menu.html" class="btn custom-btn">Daftar Harga</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="img/3.jpg" class="card-img-top" alt="Project 1" />
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Konsultasi</h5>
+                <p class="card-text">
+                  Layanan konsultasi untuk pendirian perusahaan komanditer (CV)
+                  secara terpercaya.
+                </p>
+                <a href="menu.html" class="btn custom-btn">Daftar Harga</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Add more project cards here -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Kontak -->
+    <section class="contact" id="contact">
+      <h2 class="fw-bold">Kontak <span>Kami</span></h2>
+      <div class="contact-content">
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.639734977379!2d106.929518874628!3d-6.93359096786992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68492878f0c2b9%3A0xeabb34e8a944b1c5!2sWarung%20Legalitas!5e0!3m2!1sen!2sid!4v1691136824571!5m2!1sen!2sid"
+          ></iframe>
+        </div>
+        <div class="contact-info">
+          <form name="submit-to-google-sheet">
+            <!-- Formulir kontak ... -->
+            <div class="form-group">
+              <label for="name">Nama Lengkap</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">No Handphone</label>
+              <input type="text" id="phone" name="phone" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Pesan</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-kirim">
+              Kirim
+            </button>
+            <button
+              type="button"
+              class="btn btn-primary btn-loading d-none"
+              disabled
+            >
+              <span
+                class="spinner-border spinner-border-sm"
+                role="status"
+                aria-hidden="true"
+              ></span>
+              Loading...
+            </button>
+            <!-- Alert -->
+            <div
+              class="alert alert-success alert-dismissible fade show d-none my-alert mt-3"
+              role="alert"
+            >
+              <strong>Terima Kasih</strong> Pesan anda telah terkirim.
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="alert"
+                aria-label="Close"
+              ></button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p class="follow-us">Follow for more information</p>
+      <div class="social-icons">
+        <a
+          href="https://www.instagram.com/legalitas_sukabumi/"
+          target="_blank"
+          class="social-icon"
+          ><img src="img/ig.png" alt="Instagram"
+        /></a>
+        <a
+          href="mailto:budinotaris07@gmail.com"
+          target="_blank"
+          class="social-icon"
+          ><img src="img/gmail.png" alt="Gmail"
+        /></a>
+        <a
+          href="https://www.facebook.com/lika.triyani?mibextid=ZbWKwL"
+          target="_blank"
+          class="social-icon"
+          ><img src="img/fb.png" alt="Facebook"
+        /></a>
+      </div>
+
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="index.html#about">Tentang</a>
+        <a href="index.html#services">Layanan</a>
+        <a href="index.html#contact">Kontak</a>
+      </div>
+
+      <div class="address">
+        <p>
+          Jl. RH. Didi Sukardi No.35, Gedongpanjang, Kec. Citamiang, Kota
+          Sukabumi, Jawa Barat 43191
+        </p>
+      </div>
+
+      <div class="copy">
+        <p>&copy; 2023 Warung Legalitas. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <div class="whatsapp-float">
+      <a
+        href="https://wa.me/6281315466637"
+        target="_blank"
+        class="whatsapp-icon"
+      >
+        <img src="img/wa-black.png" alt="WhatsApp Icon" />
+      </a>
+      <a
+        href="https://wa.me/6281315466637"
+        target="_blank"
+        class="whatsapp-text"
+        >Chat WhatsApp
+      </a>
+    </div>
+
+    <!-- Panggil Bootstrap JS -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+    <!-- Google Sheet -->
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbyJkTOFVnbb9hurX_ykyntU_DDANjiobIku4y7JUIltEuTHh1DgpmwCVWr2qc-MpHKk5A/exec";
+      const form = document.forms["submit-to-google-sheet"];
+
+      const btnKirim = document.querySelector(".btn-kirim");
+      const btnLoading = document.querySelector(".btn-loading");
+      const myAlert = document.querySelector(".my-alert");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+
+        // ketika btn submit di klik
+        // tampilkan btn loading hilang btn kirim
+        btnLoading.classList.toggle("d-none");
+        btnKirim.classList.toggle("d-none");
+
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            btnLoading.classList.toggle("d-none");
+            btnKirim.classList.toggle("d-none");
+            myAlert.classList.toggle("d-none");
+            form.reset();
+            console.log("Success!", response);
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
