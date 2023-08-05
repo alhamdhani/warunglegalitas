@@ -510,8 +510,9 @@ th {
       margin: 0 auto;
       padding: 20px;
       text-align: justify;
-      height: 460px;
+      height: 480px;
       overflow: hidden;
+      
       }
 
       .about p {
